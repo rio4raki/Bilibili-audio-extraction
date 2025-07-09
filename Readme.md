@@ -31,7 +31,7 @@
 
 1.  **下载脚本**
 
-      * 将 `bilibili_audio_downloader.py` 脚本文件下载到您电脑的任意位置。
+      * 将 `main.py` 脚本文件下载到您电脑的任意位置。
 
 2.  **安装 Python 依赖库**
 
@@ -48,7 +48,7 @@
 
 1.  **创建 `get.txt` 文件**
 
-      * 在与 `bilibili_audio_downloader.py` 脚本相同的目录下，手动创建一个名为 `get.txt` 的文本文件。
+      * 在与 `main.py` 脚本相同的目录下，手动创建一个名为 `get.txt` 的文本文件。
 
 2.  **添加视频链接**
 
@@ -63,7 +63,7 @@
 
       * 打开您的终端（或命令提示符），切换到脚本所在的目录，然后运行以下命令：
         ```sh
-        python bilibili_audio_downloader.py
+        python main.py
         ```
 
 4.  **查找文件**
@@ -74,7 +74,7 @@
 
 ```
 .
-├── bilibili_audio_downloader.py  # 主脚本
+├── main.py  # 主脚本
 ├── get.txt                       # 视频链接输入文件
 └── download/                     # 下载输出目录
     └── 示例视频标题_2025-07-09 18.13.46.mp3
